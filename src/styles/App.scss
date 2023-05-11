@@ -1,0 +1,32 @@
+$primarycolor : #f00;
+$secondarycolor: #fff;
+$primary-color: red;
+$primary_color: green; // this two variables are the same
+$new_color: pink;
+
+h1 {
+    color: $primarycolor
+}
+
+h2 {
+    $primarycolor: #0f0 !global;
+    background-color: $primarycolor;
+}
+
+h3 {
+    color: $primary-color
+}
+
+.tera {
+    padding: 10px;
+    background-color: $primary-color;
+    h3 {
+        color: $secondarycolor
+    }
+    ul {
+        background-color: $new_color;
+    }
+    li {
+        color: $primarycolor
+    }
+}
