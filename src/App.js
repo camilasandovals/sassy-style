@@ -14,6 +14,11 @@ function App() {
               <li>mass: 5,972 x 10^24kg</li>
             </ul>
       </div>
+      <button className='button'>Nice SASS button</button>
+      <button className='button-prime'>Nice prime SASS button</button>
+      <footer>
+        <button> Footer</button>
+      </footer>
     </div>
   );
 }
